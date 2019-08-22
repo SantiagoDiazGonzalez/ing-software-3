@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: nonrest
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: sandi
+Implementation-Vendor-Id: org.springframework.guides
+Build-Jdk: 1.8.0_211
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/tut-rest/nonrest
+Created-By: Maven Integration for Eclipse
+
