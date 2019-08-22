@@ -21,5 +21,24 @@ Ciclos de vida del build
 ------------------------------------------------------------------------------------------------------------------------
 
 mvn clean install
-    Cuando ejecuto este comando en el directorio donde se encuentra el archivo POM se realiza el build del proyecto y se crea un target con un archivo jar, correspondiente a la aplicacion y las propiedades que se declararon en el archivo POM.
+    Cuando ejecuto este comando en el directorio donde se encuentra el archivo POM se realiza el build del proyecto y se crea un target con un archivo jar, correspondiente a la aplicacion y las propiedades que se declararon en el archivo POM. Install no solo compila el codigo, sino que lo agrega al repositorio local.
 
+mvn clean package
+    Este comando realiza el build del proyecto creando un archivo jar como el comando anterior (siguiendo las instrucciones indicadas en el archivo POM).
+
+Dependencias
+    Se pueden indicar las dependencias del proyecto en el archivo POM, sin embargo si no se usa el plugin shade de maven las dependencias no se van a empaquetar en un uber-jar con el proyecto empaquetado, y cuando se lo quiera ejecutar no se encontraran las mismas.
+
+------------------------------------------------------------------------------------------------------------------------
+
+Build tools
+    Java --> Maven, Gradle.
+    Python --> PyBuilder.
+    C++ --> Cmake, Gradle.
+    C# --> Cake.
+    javascript --> Grunt, Nodejs.
+    Ruby --> RubyGems.
+    Go --> go build.
+    Swift --> Package manager.
+    Kotlin --> Ant, Maven, Gradle.
+    PHP --> Phing.
